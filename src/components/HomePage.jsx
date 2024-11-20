@@ -1,5 +1,3 @@
-import React from 'react';
-
 const HomePage = () => {
     return (
         <body>
@@ -14,7 +12,7 @@ const HomePage = () => {
                             <td>
                                 <a href="https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF?si=bATdE8JzQzaWCHtUJAbVlg"
                                     target="_blank">
-                                    <img src="img/chromakopia.jpeg" alt="Album cover of a masked man in black and white" /></a>
+                                    <img src="/img/chromakopia.jpeg" alt="Album cover of a masked man in black and white" /></a>
                             </td>
                             <td>
                                 <div className="details">
@@ -29,7 +27,7 @@ const HomePage = () => {
                             </td>
                             <td>
                                 <a href="https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed?si=60a6a68dbc4b43eb" target="_blank">
-                                    <img src="img/currents.jpg" alt="Album cover of a marble in stripey water" /></a>
+                                    <img src="/img/currents.jpg" alt="Album cover of a marble in stripey water" /></a>
                             </td>
                             <td>
                                 <div className="details">
@@ -44,7 +42,7 @@ const HomePage = () => {
                             </td>
                             <td>
                                 <a href="https://open.spotify.com/track/11LmqTE2naFULdEP94AUBa?si=5bc0610a26d3414f" target="_blank">
-                                    <img src="img/utero.jpg" alt="Album cover of human anatomy with wings" /></a>
+                                    <img src="/img/utero.jpg" alt="Album cover of human anatomy with wings" /></a>
                             </td>
                             <td>
                                 <div className="details">
@@ -59,7 +57,7 @@ const HomePage = () => {
                             </td>
                             <td>
                                 <a href="https://open.spotify.com/track/7C2bncZ2xUWmAIsfeukLhG?si=c5df6f10c78249fa" target="_blank">
-                                    <img src="img/circles.jpg" alt="Album cover of a person on a rocky beach" /></a>
+                                    <img src="/img/circles.jpg" alt="Album cover of a person on a rocky beach" /></a>
                             </td>
                             <td>
                                 <div className="details">
@@ -74,7 +72,7 @@ const HomePage = () => {
                             </td>
                             <td>
                                 <a href="https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R?si=aed53a5c14b947a8" target="_blank">
-                                    <img src="img/modest.jpg" alt="album cover of an arrow shooting blue wall" /></a>
+                                    <img src="/img/modest.jpg" alt="album cover of an arrow shooting blue wall" /></a>
                             </td>
                             <td>
                                 <div className="details">

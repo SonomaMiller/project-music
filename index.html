@@ -1,138 +1,22 @@
-<!--
-This page contains the current week's wrapped & an about section
--->
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta authors="Sonoma Miller, Mackenzie Kimbrough, Zayna Lughod, Valeria Perez-Leyva">
-        <title>UW Wrapped</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Racing+Sans+One&display=swap"
-            rel="stylesheet"
-        >
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta authors="Sonoma Miller, Mackenzie Kimbrough, Zayna Lughod, Valeria Perez-Leyva">
+  <title>UW Wrapped</title>
+  <script type="module" src="/src/main.jsx"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Racing+Sans+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html"><h2>UW Wrapped</h2></a>
-            <div id="hamburger-menu"><a href="#"><i class="fa fa-bars" aria-label="menu"></i></a></div>
-            <div id="tabs">
-                <div><a href="allsongs.html">All Music</a></div>
-                <div><a href="add.html">Add a Song</a></div>
-                <div><a href="vote.html">Vote</a></div>
-                <div><a href="archive.html">Archive</a></div>
-            </div>
-        </nav>
-    </header>
+  <div id="root"></div>
 
-        <section id="wrapped">
-            <h2>This Week's Wrapped</h2>
-            <table>
-                <!--
-                <thead>
-                    <tr>
-                        <th scope="col">Rank</th>
-                        <th scope="col">Album</th>
-                        <th scope="col">Song Title</th>
-                        <th scope="col">Artist</th>
-                    </tr>
-                </thead>
-                -->
-                <tbody>
-                    <tr>
-                        <td><h1>1.</h1></td>
-                        <td>
-                            <a href="https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF?si=bATdE8JzQzaWCHtUJAbVlg" target="_blank">
-                            <img src="img/chromakopia.jpeg" alt="Album cover of a masked man in black and white"></a>
-                        </td>
-                        <td>
-                            <div class="details">
-                                <h2>ST. CHROMA</h2>
-                                <h3>Tyler, the Creator</h3>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><h1>2.</h1></td>
-                        <td>
-                            <a href="https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed?si=60a6a68dbc4b43eb" target="_blank">
-                            <img src="img/currents.jpg" alt="Album cover of a marble in stripey water"></a>
-                        </td>
-                        <td>
-                            <div class="details">
-                                <h2>Let It Happen</h2>
-                                <h3>Tame Impala</h3>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><h1>3.</h1></td>
-                        <td>
-                            <a href="https://open.spotify.com/track/11LmqTE2naFULdEP94AUBa?si=5bc0610a26d3414f" target="_blank">
-                            <img src="img/utero.jpg" alt="Album cover of human anatomy with wings"></a>
-                        </td>
-                        <td>
-                            <div class="details">
-                                <h2>Heart-Shaped Box</h2>
-                                <h3>Nirvana</h3>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><h1>4.</h1></td>
-                        <td>
-                            <a href="https://open.spotify.com/track/7C2bncZ2xUWmAIsfeukLhG?si=c5df6f10c78249fa" target="_blank">
-                            <img src="img/circles.jpg" alt="Album cover of a person on a rocky beach"></a>
-                        </td>
-                        <td>
-                            <div class="details">
-                                <h2>It Gets Easier</h2>
-                                <h3>Tanukichan</h3>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><h1>5.</h1></td>
-                        <td>
-                            <a href="https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R?si=aed53a5c14b947a8" target="_blank">
-                            <img src="img/modest.jpg" alt="album cover of an arrow shooting blue wall"></a>
-                        </td>
-                            <td>
-                            <div class="details">
-                                <h2>Float On</h2>
-                                <h3>Modest Mouse</h3>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+</body>
 
-        <div id="button">
-            <a href="add.html"><button>Add a Song</button></a>
-        </div>
-
-        <section id="about">
-            <h2>About</h2>
-            <section id="content">
-                <p>
-                    This website is a compilation of what UW students are listening to this week!
-                    Songs are added through the &lsquo;Add a Song&rsquo; page, and students can view past wraps
-                    through the &lsquo;Archive&rsquo; button.
-                </p>
-            </section>
-        </section>
-
-        <footer>
-            <p class="citing"><cite>&copy; 2024 UW Wrapped. All rights reserved.</cite></p>
-            <p class="citing"><cite>All songs from Spotify by respective artists</cite></p>
-        </footer>
-    </body>
 </html>
