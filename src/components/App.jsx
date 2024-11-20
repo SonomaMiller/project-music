@@ -11,7 +11,7 @@ import AddPage from './AddSongPage'
 import SONG_LIST from '../data/song_list.json'
 
 
-function App(props) {
+function App() {
   const INITIAL_DATA = SONG_LIST;
   const [songArray, setSongArray] = useState(INITIAL_DATA);
 

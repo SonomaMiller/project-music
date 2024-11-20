@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom'
+
 const HomePage = () => {
     return (
         <body>
@@ -86,8 +88,8 @@ const HomePage = () => {
             </section>
 
             <div id="button">
-                <a href="add.html"><button>Add a Song</button></a>
-            </div>
+                <NavLink to='/add'><button>Add a Song</button></NavLink>
+                </div>
 
             <section id="about">
                 <h2>About</h2>
