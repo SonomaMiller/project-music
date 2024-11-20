@@ -1,0 +1,135 @@
+[
+    {
+        "title": "Waste My Time",
+        "artist": "Essosa",
+        "genre": ["R&B"],
+        "album_cover": "img/wastemytime-essosa.jpeg",
+        "spotify_link": "https://open.spotify.com/album/5hf83mN1IFFHq3JYTJZLeE",
+        "comment": [
+            "A smooth blend of R&B and pop vibes. Perfect for late-night drives!"
+        ]
+    },
+    {
+        "title": "Noid",
+        "artist": "Tyler, The Creator",
+        "genre": ["Hip-Hop"],
+        "album_cover": "img/chromakopia.jpeg",
+        "spotify_link": "https://open.spotify.com/track/1tnZxHryc2wWtjUZC1LQw5",
+        "comment": [
+            "Tyler never disappoints with his unique mix of rap and experimental sounds."
+        ]
+    },
+    {
+        "title": "Mi Fiesta",
+        "artist": "Bandalos Chinos",
+        "genre": ["Indie Pop"],
+        "album_cover": "img/mifiesta-bandaloschinos.jpeg",
+        "spotify_link": "https://open.spotify.com/track/1h1ryRXPpMLgXeYdq9qylK",
+        "comment": [
+            "Catchy and fun! This track will have you dancing in no time."
+        ]
+    },
+    {
+        "title": "Let It Happen",
+        "artist": "Tame Impala",
+        "genre": ["Psychedelic Rock"],
+        "album_cover": "img/currents.jpg",
+        "spotify_link": "https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed",
+        "comment": [
+            "A psychedelic masterpiece that transports you to another world!"
+        ]
+    },
+    {
+        "title": "No Pole",
+        "artist": "Don Toliver",
+        "genre": ["Hip-Hop", "R&B"],
+        "album_cover": "img/nopole-dontoliver.jpeg",
+        "spotify_link": "https://open.spotify.com/track/0eaVIYo2zeOaGJeqZ5TwYz",
+        "comment": [
+            "Don Toliver brings his signature sound with a laid-back groove."
+        ]
+    },
+    {
+        "title": "Heart-Shaped Box",
+        "artist": "Nirvana",
+        "genre": ["Grunge"],
+        "album_cover": "img/utero.jpg",
+        "spotify_link": "https://open.spotify.com/track/11LmqTE2naFULdEP94AUBa",
+        "comment": [
+            "Grunge at its finest—raw and emotional, a true classic."
+        ]
+    },
+    {
+        "title": "Intimidated",
+        "artist": "KAYTRANADA, H.E.R.",
+        "genre": ["R&B", "Electronic"],
+        "album_cover": "img/intimidated-KAYTRANADA.jpeg",
+        "spotify_link": "https://open.spotify.com/track/0dFdGPVLs3k0z9ezYWZzUa",
+        "comment": [
+            "A silky, smooth collaboration that blends R&B with futuristic beats."
+        ]
+    },
+    {
+        "title": "Mil Horas",
+        "artist": "Los Abuelos De La Nada",
+        "genre": ["Latin Rock"],
+        "album_cover": "img/milhoras-losabuelosdelanada.jpeg",
+        "spotify_link": "https://open.spotify.com/track/6ySWtyMprBb1YX8WAAuFBs",
+        "comment": [
+            "A timeless Latin rock anthem with catchy rhythms and heartfelt lyrics."
+        ]
+    },
+    {
+        "title": "The Party & The After Party",
+        "artist": "The Weeknd",
+        "genre": ["R&B", "Pop"],
+        "album_cover": "img/thepartyandafter-theweeknd.jpeg",
+        "spotify_link": "https://open.spotify.com/track/6jaJk4sqtPWKUX6BNDjuQg",
+        "comment": [
+            "A dark, sultry vibe that perfectly captures the highs and lows of nightlife."
+        ]
+    },
+    {
+        "title": "Hold On",
+        "artist": "The Internet",
+        "genre": ["R&B", "Soul"],
+        "album_cover": "img/holdon-theinternet.jpeg",
+        "spotify_link": "https://open.spotify.com/track/5tqZJUHEuqdN12RZVq2l9p",
+        "comment": [
+            "The Internet never fails to deliver soulful, groovy tracks that get stuck in your head."
+        ]
+    },
+    {
+        "title": "It Gets Easier",
+        "artist": "Tanukichan",
+        "genre": ["Indie Pop"],
+        "album_cover": "img/circles.jpg",
+        "spotify_link": "https://open.spotify.com/track/7C2bncZ2xUWmAIsfeukLhG?si=c5df6f10c78249fa&nd=1&dlsi=0f9734eb416b432f",
+        "comment": [
+            "Chill and reflective—this one’s for those quiet, introspective moments."
+        ]
+    },
+    {
+        "title": "ATTITUDE",
+        "artist": "Don Toliver, Cash Cobain, Charlie Wilson",
+        "genre": ["Hip-Hop", "R&B"],
+        "album_cover": "img/attitude-dontoliver.jpeg",
+        "spotify_link": "https://open.spotify.com/track/2StLVmvyGXq4tzlpWZiUh3",
+        "comment": [
+            "A bouncy, high-energy track with great features and a killer hook."
+        ]
+    },
+    {
+        "title": "Float On",
+        "artist": "Modest Mouse",
+        "genre": ["Indie Rock"],
+        "album_cover": "img/modest.jpg",
+        "spotify_link": "https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R?si=aed53a5c14b947a8",
+        "comment": [
+            "An indie-rock classic that always feels fresh, no matter how many times you hear it."
+        ]
+    }
+]
+
+
+
