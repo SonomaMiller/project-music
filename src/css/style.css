@@ -1,468 +1,575 @@
 body {
-    background-color: #F4EBB5;
+  background-color: #F4EBB5;
 }
 
 h1 {
-    color: #500E6D;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-    font-size: 5rem;
+  color: #500E6D;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  font-size: 5rem;
 }
 
 h2 {
-    color: #500E6D;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-    text-align: center;
+  color: #500E6D;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  text-align: center;
 }
 
 h3,
 footer {
-    color: #500E6D;
-    font-family: 'Khula', 'Times New Roman', Times, serif;
-    font-size: 2rem;
+  color: #500E6D;
+  font-family: 'Khula', 'Times New Roman', Times, serif;
+  font-size: 2rem;
 }
 
 p {
-    color: #500E6D;
-    font-family: 'Khula', 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    text-align: center;
-    margin: auto 2em 2em;
+  color: #500E6D;
+  font-family: 'Khula', 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  text-align: center;
+  margin: auto 2em 2em;
 }
 
-nav {
-    width: auto;
-    margin: 50px auto 20px;
-    background-color: #FAF6DC;
-    border: 2px dashed #500E6D;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+  width: auto;
+  margin: 50px auto 20px;
+  background-color: #FAF6DC;
+  border: 2px dashed #500E6D;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_item {
+  color:#500E6D;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }
 
 nav a {
-    text-decoration: none;
-    gap: 20px;
+  text-decoration: none;
+  gap: 20px;
 }
 
-#add-button:hover, .filter:hover {
-    background-color: rgb(183, 156, 194, .7);
+#add-button:hover,
+.filter:hover {
+  background-color: rgb(183, 156, 194, .7);
 }
 
 nav #tabs {
-    display: none;
+  display: none;
 }
 
-/* 'UW Wrapped' */
+/* 'UW Wrapped' navbar */
 nav h2 {
-    text-align: left;
-    margin-left: 1em;
+  text-align: left;
+  margin-left: 1em;
 }
 
-#vote, #albums, #wrapped, #about, #add_song, #song-box{
-    width: auto;
-    margin: 50px auto 20px;
-    background-color: #FAF6DC;
-    border: 2px solid #500E6D;
-    border-top: 7px solid #500E6D;
-    border-bottom: 7px solid #500E6D;
-    padding: 20px;
+#vote,
+#albums,
+#wrapped,
+#about,
+#add_song,
+#song-box {
+  width: auto;
+  margin: 50px auto 20px;
+  background-color: #FAF6DC;
+  border: 2px solid #500E6D;
+  border-top: 7px solid #500E6D;
+  border-bottom: 7px solid #500E6D;
+  padding: 20px;
 }
 
 label {
-    color: #500E6D;
-    font-size: 2rem;
+  color: #500E6D;
+  font-size: 2rem;
 }
 
 form {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 form label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
 }
 
 form input {
-    padding: 15px;
-    font-size: 2rem;
-    color: #500E6D;
-    border-radius: 5px;
-    border: 1px solid #500E6D;
-    background-color: #D9D9D9;
-    width: 100%;
-    height: 50px;
-}
-
-#button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 15px;
+  font-size: 3rem;
+  color: #500E6D;
+  border-radius: 5px;
+  border: 1px solid #500E6D;
+  background-color: #D9D9D9;
+  width: 100%;
+  height: 50px;
 }
 
 #add-button {
-    background-color: #500E6D;
-    color: white;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    padding: 0.25em 0.75em;
+  background-color: #500E6D;
+  color: white;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 0.25em 0.75em;
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  border-collapse: collapse;
 }
 
 tbody {
-    text-align: left;
-    padding: 0.5em;
+  text-align: left;
+  padding: 0.5em;
 }
 
 tr {
-    width: 100%;
+  width: 100%;
 }
 
 td {
-    padding: 0.5em;
-    text-align: left;
+  padding: 0.5em;
+  text-align: left;
 }
 
 td h1 {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 img {
-    height: 150px;
-    width: auto;
+  height: 150px;
+  width: auto;
 }
 
 .details {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 .details h2,
 .details h3 {
-    text-align: left;
-    margin: 0;
+  text-align: left;
+  margin: 0;
 }
 
 .album-box {
-    background-color: #FAF6DC;
-    border: 5px solid #500E6D;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 30px auto;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 800px;
+  background-color: #FAF6DC;
+  border: 5px solid #500E6D;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
 }
 
 .album-box img {
-    max-width: 200px;
-    height: auto;
-    border-radius: 5px;
-    margin-right: 28px;
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 28px;
 }
 
 .album-details {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-left: auto;
-    margin-right: 20px;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: auto;
+  margin-right: 20px;
+  padding: 10px;
 }
 
 .album-details .date {
-    font-size: 10rem;
-    font-weight: bold;
-    color: #500E6D;
+  font-size: 10rem;
+  font-weight: bold;
+  color: #500E6D;
 }
 
 .album-details h3 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    color: #500E6D;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-    margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #500E6D;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
 }
 
 .week {
-    font-size: 4rem;
-    font-weight: bold;
-    color: #500E6D;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-    margin-left: 5px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #500E6D;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  margin-left: 5px;
 }
 
 /* add.html style sheet*/
 #add_song h1 {
-    font-size: 4rem;
-    margin: 1rem auto 1rem;
+  font-size: 4rem;
+  margin: 1rem auto 1rem;
 }
 
 #add_song {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 #add_song button {
-    font-size: 2rem;
-    margin: 1rem;
+  font-size: 2rem;
+  margin: 1rem;
 }
 
 .form_section {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
 label {
-    color: #500E6D;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    margin: .5rem;
-    flex: 1;
-    width: 25%;
-    text-align: right;
-
+  color: #500E6D;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin: .5rem;
+  flex: 1;
+  width: 25%;
+  text-align: right;
 }
 
-input, textarea {
-    font-size: 1rem;
-    margin: 1rem;
-    flex: 6;
-    min-width: 0;
-    background-color: #D9D9D9;
-    border: 1px solid #500E6D;
+input,
+textarea {
+  font-size: 1rem;
+  margin: 1rem;
+  flex: 6;
+  min-width: 0;
+  background-color: #D9D9D9;
+  border: 1px solid #500E6D;
 }
 
 /* allsong.html CSS */
-#current {
-    text-decoration: #500E6D underline;
-}
-
 #search-bar {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #search-input {
-    background-color: #d9d9d9;
-    color: #9f9f9f;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-    height: 4rem;
-    font-size: 1.5rem;
-    border-radius: 30px;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    padding: .6rem 2rem;
-    display: table-cell;
-    box-sizing: border-box;
-    width: 100%;
-    border: 2px #500E6D solid;
+  background-color: #d9d9d9;
+  color: #9f9f9f;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  height: 4rem;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding: .6rem 2rem;
+  display: table-cell;
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px #500E6D solid;
 }
 
 #search-input:hover {
-    background-color: rgb(183, 156, 194, .7);
-    color: black;
+  background-color: rgb(183, 156, 194, .7);
+  color: black;
 }
 
 #filters {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
 }
 
 .filter {
-    color: black;
-    background-color: #d9d9d9;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-    margin: .5rem;
-    margin-bottom: 4rem;
-    border-radius: 35px;
-    font-size: 2rem;
-    padding: .6rem 2rem;
-    word-spacing: 3em;
-    border: 2px #500E6D solid;
+  color: black;
+  background-color: #d9d9d9;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  margin: .5rem;
+  margin-bottom: 4rem;
+  border-radius: 35px;
+  font-size: 2rem;
+  padding: .6rem 2rem;
+  border: 2px #500E6D solid;
 }
 
-.song-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+.allSongsImg {
+  max-width: 150px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 28px;
+}
+
+tr,
+.songRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .song-info h2,
 .song-info h3 {
-    text-align: left;
-    margin: 0;
+  text-align: left;
+  margin: 0;
 }
 
 .song-info h2 {
-    font-size: 2.7rem;
+  font-size: 2.7rem;
 }
 
 .song-info h3 {
-    font-size: 1.7rem;
-}
-
-.dotnav {
-    color:#500E6D;
-    background-color: #FAF6DC;
-    border: none;
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 1.8rem;
-    display: table-cell;
-    box-sizing: border-box;
-    width: 100%;
+  font-size: 1.7rem;
 }
 
 .citing {
-    margin-bottom: 0;
-    padding: 0;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #allSongsEnd {
-    margin: 2rem;
+  margin: 2rem;
+}
+
+.song-title{
+  color:#500E6D;
+  text-decoration: none;
 }
 
 /* vote.html */
 #vote label {
-    color: #500E6D;
-    font-size: 3.0 rem;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-}
-
-form {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-form label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-size: 2rem;
-}
-
-form input {
-    padding: 15px;
-    font-size: 3.0 rem;
-    color: #500E6D;
-    border-radius: 5px;
-    border: 1px solid #500E6D;
-    background-color: #D9D9D9;
-    width: 100%;
-    height: 50px;
+  color: #500E6D;
+  font-size: 3.0 rem;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
 }
 
 button {
-    background-color: #500E6D;
-    color: white;
-    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    padding: 0.25em 0.75em;
+  background-color: #500E6D;
+  color: white;
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 0.25em 0.75em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 form button {
-    align-self: center;
+  align-self: center;
 }
 
-@media (min-width: 598px)
-{
-    #hamburger-menu {
-        display: none;
-        margin-right: 3em;
-    }
+@media (min-width: 598px) {
+  #vote,
+  #albums,
+  #wrapped,
+  #about,
+  #add_song,
+  #song-box {
+    width: 90%;
+    margin: 50px auto 20px;
+    border: 2px solid #500E6D;
+    border-top: 7px solid #500E6D;
+    border-bottom: 7px solid #500E6D;
+    padding: 20px;
+  }
 
-    nav #tabs {
-        display: flex;
-    }
+  nav {
+    width: 80%
+  }
 
-    #vote, #albums, #wrapped, #about, #add_song, #song-box{
-        width: 90%;
-        margin: 50px auto 20px;
-        border: 2px solid #500E6D;
-        border-top: 7px solid #500E6D;
-        border-bottom: 7px solid #500E6D;
-        padding: 20px;
-    }
-
-    nav {
-        width: 80%
-    }
-
-    nav #tabs a {
-        color: #500E6D;
-        font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
-        font-size: 2rem;
-        margin-right: 1em;
-    }
+  .nav_item {
+    color: #500E6D;
+    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-right: 1em;
+  }
 }
 
-@media (max-width: 768px)
-{
-    body {
-        background-color: #F4EBB5;
-    }
+@media (max-width: 768px) {
+  body {
+    background-color: #F4EBB5;
+  }
 
-    .details h2, .details h3 {
-        font-size: 1.5rem;
-    }
+  .details h2,
+  .details h3 {
+    font-size: 1.5rem;
+  }
 
-    table img {
-        max-width: 100px;
-        height: auto;
-    }
+  table img {
+    max-width: 100px;
+    height: auto;
+  }
 
-    table {
-        max-width: 80%;
-    }
+  table {
+    max-width: 80%;
+  }
 
-    #albums, .album-box, section, #search-filter {
-        width: 100%;
-        display: flex;
-        box-sizing: border-box;
-        flex-wrap: wrap;
-    }
+  #albums,
+  .album-box,
+  section,
+  #search-filter {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
 
-    nav, #vote, #albums, #wrapped, #about, #add_song, #song-box {
-        width: 100%;
-    }
+  nav,
+  #vote,
+  #albums,
+  #wrapped,
+  #about,
+  #add_song,
+  #song-box {
+    width: 100%;
+  }
 
-    .details {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    #hamburger-menu {
-        display: block;
-        margin: auto 40px auto 40px;
-    }
+  #hamburger-menu {
+    display: block;
+    margin: auto 40px auto 40px;
+  }
 
-    nav #tabs, .dotnav, .album-box h3 {
-        display: none;
-    }
+  nav #tabs,
+  .dotnav,
+  .album-box h3 {
+    display: none;
+  }
 }
+
+.like-button {
+  background-color: transparent;
+  color: #500E6D;
+  font-size: 3rem;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 0;
+}
+
+.like-button::before,
+.like-button::after {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #500E6D;
+}
+
+.like-button::before {
+  top: 0;
+  left: 0;
+}
+
+.like-button::after {
+  top: 0;
+  right: 0;
+}
+
+.like-button svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke: #500E6D;
+  stroke-width: 5;
+
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.song-info h2,
+.song-info h3 {
+  margin: 0;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.likes-text {
+  font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+  color: #500E6D;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.song-info .like-container {
+  align-items: center;
+}
+
+.song-info .likes-text {
+  font-size: 30px;
+  color: #500E6D;
+  margin-top: 8px;
+}
+
+@media (min-width: 992px) {
+  .nav_item {
+    color: #500E6D;
+    font-family: 'Racing Sans One', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
+/* Song Details Page*/
+#song_details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#details_section {
+  display: flex;
+
+}
+
+#song_info {
+  margin-left: 2rem;
+}
+
+#song_details h2,
+h3 {
+  text-align: left;
+}
+
+#song_details img {
+  height: 500px;
+  width: 500px;
+}
+
